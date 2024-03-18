@@ -15,15 +15,38 @@ To write a program to find the GCD of two numbers using function.
 
 ## Program:
 ```
-/*
-Program to find the gcd of two number using function.
-Developed by: 
-RegisterNumber:  
-*/
+#FINDING THE GREATEST COMMON DIVISOR OF THE TWO NUMBERS
+
+#DEVELOPED BY: MOHAMMED SAAJID S
+
+#REGISTER NUMBER: 212223240093
+
+def gcd():
+
+    num1,num2 = int(input()),int(input())
+
+    if num1>num2:
+
+        small=num2
+
+    else:
+
+        small=num1
+
+    for i in range(1,small+1):
+
+        if (num1%i==0) and (num2%i==0):
+
+            gcdd=i
+
+    print("GCD of two numbers is:",gcdd)        
+
 ```
 
 ## Output:
 
+
+![pythonexp4](https://github.com/Confusion7/GCD-of-two-numbers/assets/141727149/1e504fd9-adbe-426d-8416-8d48fe3c25b5)
 
 
 ## Result:
