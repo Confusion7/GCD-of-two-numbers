@@ -5,7 +5,7 @@ To write a program to find the GCD of two numbers using function.
 
 ## Equipments Required:
 1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
+2. Anaconda – Python 3.7 Installation / Moodle-Code Runner 
 
 ## Algorithm
 1. Define a function.
